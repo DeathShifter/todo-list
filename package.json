@@ -23,6 +23,11 @@
   "devDependencies": {
     "css-loader": "^6.6.0",
     "date-fns": "^2.28.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-react": "^7.28.0",
     "html-webpack-plugin": "^5.5.0",
     "js-datepicker": "^5.18.0",
@@ -32,7 +37,6 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
-    "eslint": "^8.8.0",
     "lodash": "^4.17.21"
   }
 }
