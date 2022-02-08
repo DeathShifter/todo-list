@@ -1,0 +1,18 @@
+.d-flex {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-toggle {
+    display: none;
+}
