@@ -13,6 +13,6 @@
     flex-direction: column;
 }
 
-.menu-toggle {
+.hidden {
     display: none;
 }

@@ -28,7 +28,6 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
-    "eslint-plugin-react": "^7.28.0",
     "html-webpack-plugin": "^5.5.0",
     "js-datepicker": "^5.18.0",
     "style-loader": "^3.3.1",
