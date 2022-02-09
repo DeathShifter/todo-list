@@ -1,14 +1,20 @@
-import './index.css'
+const element = document.createElement('div')
+const textArea = document.createElement('textarea')
+const btn = document.createElement('button')
 
-function classToggle () {
-  const navLinks = document.querySelectorAll('.nav-link')
-  const dropdownItems = document.querySelectorAll('.dropdown-menu')
+btn.innerHTML = 'test'
 
-  for (let i = 0; i < navLinks.length; i++) {
-    navLinks[i].addEventListener('click', function () {
-      dropdownItems[i].classList.toggle('hidden')
-    })
-  }
-}
+element.appendChild(textArea)
+element.appendChild(btn)
 
-classToggle()
+document.body.appendChild(element)
+
+btn.addEventListener('click', function () {
+  const text = document.querySelector('textarea').value
+  const trim = text.trim()
+  const split = text.split()
+  const underscoreCase = text.toLowerCase()
+  const replace = text.replace()
+  const upperCase = text.toUpperCase()
+  console.log(`${text} ${trim} ${split} ${underscoreCase} ${replace} ${upperCase}`)
+})
